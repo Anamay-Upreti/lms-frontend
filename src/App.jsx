@@ -1,6 +1,7 @@
 import {Routes} from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
+import HomeLayout from './Layouts/HomeLayout';
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
         {/* routes */}
         
       {/* </Routes> */}
-      <Footer/>
+     <HomeLayout/>
     </>
   )
 }
