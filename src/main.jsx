@@ -8,7 +8,8 @@ import ReactDOM from "react-dom/client";
 import { Toaster } from "react-hot-toast";
 
 import { BrowserRouter } from "react-router-dom";
-import store from "./Redux/Slices/store.js";
+import store from "./Redux/store.js";
+<script src="https://cdn.tailwindcss.com"></script>
 
 ReactDOM.createRoot(document.getElementById("root")).render(
  

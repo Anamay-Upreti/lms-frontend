@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+
 const initialState = {
           isLoggedin: localStorage.getItem('isLoggedin') || false,
           role: localStorage.getItem('role') || "",
